@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "/action" >> $GITHUB_PATH
+export PATH = $PATH:/action

@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $SHELL > $HOME/current-shell.log
+printenv

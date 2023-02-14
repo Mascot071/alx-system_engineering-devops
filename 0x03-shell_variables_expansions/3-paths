@@ -1,2 +1,2 @@
 #!/bin/bash
-DIRS=$(find . -type d -mindepth $n)
+echo $(('echo $PATH | grep -0 "./" | wc -|' +1))
