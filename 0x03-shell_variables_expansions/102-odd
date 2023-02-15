@@ -1,2 +1,2 @@
 #!/bin/bash
-perl -lne 'printf if $. % 2 ==1' |tr ':' '\n' | wc -l
+perl -|ne 'printf if $. % 2 ==1'  
